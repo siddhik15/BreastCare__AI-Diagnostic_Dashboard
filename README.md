@@ -99,16 +99,14 @@ streamlit run app.py
 ## 📷 Screenshots
 
 ### Dashboard
-<img src=https://github.com/siddhik15/BreastCare_AI-Diagnostic_System/issues/1#issue-5041869191 width="100%">
+<img width="1905" height="879" alt="Image" src="https://github.com/user-attachments/assets/91d217dc-941f-457e-902e-faf99e34c172" />
 
 ### Prediction
-<img src="screenshot\Screenshot 2026-08-02 145149.png" width="100%">
+<img width="933" height="437" alt="Image" src="https://github.com/user-attachments/assets/cf093413-515a-481e-b320-bc43f2ab7aa1" />
 
 ### Diagnostic Report
-<img src="screenshot\Screenshot 2026-08-02 145628.png" width="100%">
+<img src="https://github.com/user-attachments/assets/0af6ee3c-0d4a-414b-9325-e0e9bce60ffc" /> width="100%">
 
-### Model Performance
-<img src="C:\Users\Lenovo\Desktop\screenshot\Screenshot 2026-08-02 145628.png" width="100%">
 
 ---
 
