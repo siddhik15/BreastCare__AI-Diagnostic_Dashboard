@@ -114,15 +114,6 @@ streamlit run app.py
 
 This application is developed for **educational and research purposes only**. It is **not intended to replace professional medical advice, diagnosis, or treatment**. Always consult a qualified healthcare professional for medical decisions.
 
----
-
-## 👩‍💻 Developer
-
-**Siddhi Kakade**
-
-- 💼 Aspiring AI Engineer & Data Scientist
-- 🎓 B.E. Computer Engineering
-- 💗 Passionate about AI in Healthcare
 
 ---
 
