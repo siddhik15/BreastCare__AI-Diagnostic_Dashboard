@@ -99,7 +99,7 @@ streamlit run app.py
 ## 📷 Screenshots
 
 ### Dashboard
-<img src="screenshot\Screenshot 2026-08-02 145106.png" width="100%">
+<img src=https://github.com/siddhik15/BreastCare_AI-Diagnostic_System/issues/1#issue-5041869191 width="100%">
 
 ### Prediction
 <img src="screenshot\Screenshot 2026-08-02 145149.png" width="100%">
