@@ -39,7 +39,7 @@ HEADERS = [
 # Description :     Read the data into pandas dataframe
 # Inpt :            path of CSV file
 # Output :          Gives the data
-# Date :            01/05/2026
+
 #########################################
 def read_data(path):
     """Read the data into pandas dataframe"""
@@ -52,7 +52,6 @@ def read_data(path):
 # Input :           dataset
 # Output :          Returns the header
 
-# Date :            01/05/2026
 #########################################
 def get_headers(dataset):
     """Return dataset headers"""
@@ -64,7 +63,6 @@ def get_headers(dataset):
 # Input :           dataset
 # Output :          Updated dataset
 
-# Date :            01/05/2026
 #########################################
 def add_headers(dataset, headers):
     """Add headers to dataset"""
@@ -75,7 +73,7 @@ def add_headers(dataset, headers):
 # Function name :   data_file_to_csv
 # Input :           Nothing
 # Output :          Write the data to CSV
-# Date :            01/05/2026
+
 #########################################
 def data_file_to_csv():
     """Convert raw .data file to CSV with headers"""
@@ -88,9 +86,8 @@ def data_file_to_csv():
 # Function name :   handel_missing_values
 #  Description :    Filter missing values from the dataset
 # Input :           Dataset with mising values
-# Output :          Dataset by remocing missing values
+# Output :          Dataset by removing missing values
 
-# Date :            01/05/2026
 #########################################
 def handle_missing_values_with_imputer(df, feature_headers):
     """
@@ -110,7 +107,7 @@ def handle_missing_values_with_imputer(df, feature_headers):
 # Description :     Split the dataset with train_percentage
 # Input :           Dataset with related information
 # Output :          Dataset after splitting
-# Date :            01/05/2026
+
 #########################################
 def split_dataset(dataset, train_percentage, feature_headers, target_header, random_state=42):
     """Split dataset into train/test"""
@@ -130,7 +127,6 @@ def dataset_statistics(dataset):
 #  SimpleImputer:   replace missing with median
 #                   RandomForestClassifier: robust baseline
 
-# Date :            01/05/2026
 #########################################
 def build_pipeline():
 
@@ -148,7 +144,7 @@ def build_pipeline():
 ##########################################
 # Function name :   train_pipeline
 #  Description :    Train a Pipeline
-# Date :            01/05/2026
+
 #########################################
 def train_pipeline(pipeline, X_train, y_train):
     pipeline.fit(X_train, y_train)
@@ -157,7 +153,6 @@ def train_pipeline(pipeline, X_train, y_train):
 ##########################################
 # Function name :   save_model
 #  Description :    Save the model
-# Date :            01/05/2026
 #########################################
 def save_model(model, path=MODEL_PATH):
     joblib.dump(model, path)
@@ -166,7 +161,7 @@ def save_model(model, path=MODEL_PATH):
 ##########################################
 # Function name :   load_model
 #  Description :    Load the trained model
-# Date :            01/05/2026
+
 #########################################
 def load_model(path=MODEL_PATH):
     model = joblib.load(path)
@@ -176,7 +171,7 @@ def load_model(path=MODEL_PATH):
 ##########################################
 # Function name :   plot_confusion_matrix_matshow
 # Description :     Display Confusion Matrix
-# Date :            01/05/2026
+
 #########################################
 def plot_confusion_matrix_matshow(y_true, y_pred, title="Confusion Matrix"):
     cm = confusion_matrix(y_true, y_pred)
@@ -195,7 +190,6 @@ def plot_confusion_matrix_matshow(y_true, y_pred, title="Confusion Matrix"):
 # Function name :   plot_feature_importances
 # Description :     Display the feture importance
 
-# Date :            01/05/2026
 #########################################
 def plot_feature_importances(model, feature_names, title="Feature Importances (Random Forest)"):
     if hasattr(model, "named_steps") and "rf" in model.named_steps:
@@ -219,7 +213,6 @@ def plot_feature_importances(model, feature_names, title="Feature Importances (R
 #########################################
 # Function name :   main
 # Description :     Main function from where execution starts
-# Date :            01/05/2026
 #########################################
 def main():
     # 1) Ensure CSV exists
